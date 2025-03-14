@@ -16,7 +16,7 @@ app.use(helmet());
 // Register & login auth routes
 app.use('/api/auth', router);
 
-app.get("/", (req, res) => res.send("Cybersecurity Advisor API Running..."));
+app.get("/", (req, res) => res.send("Cyber-Sentinel API Running..."));
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => console.log("🚀 Server running..."));
